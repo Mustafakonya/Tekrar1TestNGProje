@@ -21,7 +21,7 @@ public class WriteExcel {
 
 
     workbook.getSheetAt(0).getRow(0).createCell(3).setCellValue("NUFUS");
-    workbook.getSheetAt(0).getRow(1).createCell(3).setCellValue("80000000");
+    workbook.getSheetAt(0).getRow(1).createCell(1).setCellValue("80000000");
     workbook.getSheetAt(0).getRow(2).createCell(3).setCellValue("10000000");
 
     Cell silmekIstedigimizHucre = workbook.getSheetAt(0).getRow(0).getCell(1);

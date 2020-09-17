@@ -18,7 +18,7 @@ public class FhcTripHotelCreateTest extends TestBase {
     }
 
 
-    @Test
+    @Test (groups = {"fhctrip", "hotelolusturma"})
     public void test(){
         giris();
 
